@@ -1,0 +1,25 @@
+/* reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,address,em,img,strong,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,video{margin:0;padding:0;font-size:100%;border:0;vertical-align:baseline}
+body{color:#3b3b3b;font-size:14px;line-height:1.5;font-family:"맑은 고딕","Malgun Gothic","돋움",dotum,Helvetica,'Apple SD Gothic Neo',sans-serif;background:#0c79c1;-webkit-text-size-adjust:none}
+address,em{font-style:normal}
+input{color:#3b3b3b;font-family:"맑은 고딕","Malgun Gothic","굴림",gulim,Helvetica,'Apple SD Gothic Neo',sans-serif;font-size:14px;padding:0;margin:0}
+legend,.blind{position:absolute;font-size:0;visibility:hidden}
+ol,ul{list-style:none}
+a{text-decoration:none}
+img{vertical-align:top}
+button{-webkit-appearance:none;border:0;background:none}
+#kanban{background:#0c79c1;margin-top:10px}
+#kanban .top{padding:10px}
+#contents{white-space:nowrap}
+.board{position:relative;display:inline-block;width:200px;height:600px;overflow-y:auto;background:#f8f8f8;margin:10px;border-radius:3px;padding:10px}
+.board h3{float:left}
+.board h3.edit input[type="text"]{width:120px}
+.board .board_btn{float:right}
+.drag{position:relative;background:#fff;border-radius:3px;border: 1px solid #ddd;padding:5px;margin-bottom:10px}
+.drag span{display:inline-block;white-space:normal;word-break:break-all;}
+.drag span > input[type="text"]{width:100px;}
+.board .card_btn{position:absolute;top:3px;right:0px;background:#fff;}
+.card_input{clear:both;padding:5px 0}
+.board .list{height:525px;padding-top:10px}
+.card_input > input[type="text"]{width:144px;border-radius:3px;border: 1px solid #ddd;padding:2px}
+.card_input > input[type="button"]{float:right;margin-left:4px}
