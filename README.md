@@ -1,5 +1,5 @@
 # js-kanban
-js로 kanban 보드 만들기
+js kanban 보드
 
 ```
 npm install
